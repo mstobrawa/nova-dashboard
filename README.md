@@ -1,69 +1,41 @@
-# React + TypeScript + Vite
+# Nova Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Nova Dashboard to uniwersalny i reużywalny panel administracyjny (dashboard), stworzony w React + TypeScript. Projekt jest obecnie w wersji **MVP** i pobiera dane z lokalnych plików JSON, ale jest praktycznie gotowy do integracji z API. Docelowo dashboard będzie obsługiwał sklep internetowy, nad którym pracuję.  
 
-Currently, two official plugins are available:
+## Funkcjonalności
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Podgląd kluczowych wskaźników (KPI) w formie kart  
+- Interaktywne wykresy sprzedaży i użytkowników (React Charts / Recharts)  
+- Lista użytkowników z responsywną tabelą  
+- Dark mode i light mode z zapamiętywaniem wyboru w localStorage  
+- Reużywalne komponenty UI, łatwe do rozbudowy i dostosowania  
+- Responsywność (RWD) – działa zarówno na desktopie, jak i mobilnie  
 
-## Expanding the ESLint configuration
+## Technologie
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- React + TypeScript  
+- Tailwind CSS (z trybem ciemnym i jasnym)  
+- Recharts – wykresy liniowe i słupkowe  
+- React Router – routing stron w dashboardzie  
+- Lucide Icons – ikony dla UI  
+- Vite – narzędzie do budowy projektu  
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Struktura projektu
+src/
+├─ components/ # Reużywalne komponenty UI (Card, Header, Footer, Sidebar)
+├─ data/ # Pliki JSON z przykładowymi danymi
+├─ pages/ # Strony dashboardu (Overview, Reports, UsersPage)
+├─ App.tsx # Główny komponent aplikacji
+└─ index.tsx # Punkt wejścia React
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## Dalsze kroki
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- Podłączenie prawdziwego API do pobierania danych
+- Rozbudowa dashboardu o nowe komponenty i wykresy
+- Optymalizacja UI/UX i testy responsywności
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Autor
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Michał Stobrawa – tworzenie projektów React, frontend i fullstack
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Nova Dashboard jest projektem hobbystycznym i przykładem MVP dla przyszłych rozwiązań e-commerce.
