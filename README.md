@@ -22,11 +22,11 @@ Nova Dashboard to uniwersalny i reużywalny panel administracyjny (dashboard), s
 
 ## Struktura projektu
 src/
-├─ components/ # Reużywalne komponenty UI (Card, Header, Footer, Sidebar)
-├─ data/ # Pliki JSON z przykładowymi danymi
-├─ pages/ # Strony dashboardu (Overview, Reports, UsersPage)
-├─ App.tsx # Główny komponent aplikacji
-└─ index.tsx # Punkt wejścia React
+components/ # Reużywalne komponenty UI (Card, Header, Footer, Sidebar)
+data/ # Pliki JSON z przykładowymi danymi
+pages/ # Strony dashboardu (Overview, Reports, UsersPage)
+App.tsx # Główny komponent aplikacji
+index.tsx # Punkt wejścia React
 
 ## Dalsze kroki
 
