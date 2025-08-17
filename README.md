@@ -18,15 +18,15 @@ Nova Dashboard to uniwersalny i reużywalny panel administracyjny (dashboard), s
 - Recharts – wykresy liniowe i słupkowe  
 - React Router – routing stron w dashboardzie  
 - Lucide Icons – ikony dla UI  
-- Vite – narzędzie do budowy projektu  
+- Vite – narzędzie do budowy projektu
 
 ## Struktura projektu
 src/
-components/ # Reużywalne komponenty UI (Card, Header, Footer, Sidebar)
-data/ # Pliki JSON z przykładowymi danymi
-pages/ # Strony dashboardu (Overview, Reports, UsersPage)
-App.tsx # Główny komponent aplikacji
-index.tsx # Punkt wejścia React
+  components/    # Reużywalne komponenty UI (Card, Header, Footer, Sidebar)
+  data/          # Pliki JSON z przykładowymi danymi
+  pages/         # Strony dashboardu (Overview, Reports, UsersPage)
+  App.tsx        # Główny komponent aplikacji
+  index.tsx      # Punkt wejścia React
 
 ## Dalsze kroki
 
