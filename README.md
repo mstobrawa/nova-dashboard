@@ -1,32 +1,71 @@
 # Nova Dashboard
 
-Nova Dashboard to uniwersalny i reużywalny panel administracyjny (dashboard), stworzony w React + TypeScript. Projekt jest obecnie w wersji **MVP** i pobiera dane z lokalnych plików JSON, ale jest praktycznie gotowy do integracji z API. Docelowo dashboard będzie obsługiwał sklep internetowy, nad którym pracuję.  
+## Opis projektu
 
-## Funkcjonalności
+Nova Dashboard to uniwersalny, reużywalny panel zarządzania (dashboard) dla małych i średnich projektów, obecnie w wersji MVP. Panel jest przygotowany do obsługi sklepu internetowego i może wyświetlać dane z lokalnych plików JSON, ale jest gotowy do szybkiego podłączenia API.
 
-- Podgląd kluczowych wskaźników (KPI) w formie kart  
-- Interaktywne wykresy sprzedaży i użytkowników (React Charts / Recharts)  
-- Lista użytkowników z responsywną tabelą  
-- Dark mode i light mode z zapamiętywaniem wyboru w localStorage  
-- Reużywalne komponenty UI, łatwe do rozbudowy i dostosowania  
-- Responsywność (RWD) – działa zarówno na desktopie, jak i mobilnie  
+Dodawane są kolejne komponenty, co ułatwia dostosowanie panelu do różnych potrzeb projektowych.
 
-## Technologie
+**Technologie:**
 
-- React + TypeScript  
-- Tailwind CSS (z trybem ciemnym i jasnym)  
-- Recharts – wykresy liniowe i słupkowe  
-- React Router – routing stron w dashboardzie  
-- Lucide Icons – ikony dla UI  
-- Vite – narzędzie do budowy projektu
+- React + TypeScript
+- Tailwind CSS (mobile-first)
+- Recharts (wykresy)
+- React Router DOM (routing)
+- Lucide React (ikony)
 
 ## Struktura projektu
+
+```
 src/
-  components/    # Reużywalne komponenty UI (Card, Header, Footer, Sidebar)
-  data/          # Pliki JSON z przykładowymi danymi
-  pages/         # Strony dashboardu (Overview, Reports, UsersPage)
-  App.tsx        # Główny komponent aplikacji
-  index.tsx      # Punkt wejścia React
+  components/        # Reużywalne komponenty UI (Card, Header, Footer, Sidebar)
+  data/              # Pliki JSON z przykładowymi danymi
+  pages/             # Strony dashboardu (Overview, Reports, UsersPage)
+  types/             # Typy TypeScript dla danych i komponentów
+  App.tsx            # Główny komponent aplikacji
+  index.tsx          # Punkt wejścia React
+```
+
+## Instalacja i uruchomienie
+
+1. Sklonuj repozytorium:
+
+```bash
+git clone https://github.com/mstobrawa/nova-dashboard.git
+```
+
+2. Przejdź do katalogu projektu i zainstaluj zależności:
+
+```bash
+cd nova-dashboard
+npm install
+```
+
+3. Uruchom projekt w trybie developerskim:
+
+```bash
+npm run dev
+```
+
+4. Otwórz przeglądarkę na `http://localhost:5173`
+
+## Wersja produkcyjna
+
+Projekt jest gotowy do deployu na Netlify lub innym hostingu statycznym.
+
+1. Zbuduj projekt:
+
+```bash
+npm run build
+```
+
+2. W folderze `dist/` znajdziesz gotowe pliki do wrzucenia na serwer.
+
+## Styl i dark mode
+
+- Dashboard obsługuje tryb ciemny i jasny (dark/light mode) z automatycznym zapamiętywaniem wyboru.
+- Stylizacja Tailwind pozwala na responsywność mobile-first.
+- Sidebar automatycznie zmienia wygląd w zależności od rozdzielczości ekranu.
 
 ## Dalsze kroki
 
@@ -34,8 +73,11 @@ src/
 - Rozbudowa dashboardu o nowe komponenty i wykresy
 - Optymalizacja UI/UX i testy responsywności
 
+
 ## Autor
 
-Michał Stobrawa – tworzenie projektów React, frontend i fullstack
+Michał Stobrawa - tworzenie projektów React, frontend i fullstack
 
-Nova Dashboard jest projektem hobbystycznym i przykładem MVP dla przyszłych rozwiązań e-commerce.
+---
+
+**Link do repozytorium:** [https://github.com/mstobrawa/nova-dashboard](https://github.com/mstobrawa/nova-dashboard)
