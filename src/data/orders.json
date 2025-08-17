@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "customer": "Anna Kowalska",
+    "amount": 120.5,
+    "status": "Zakończone",
+    "date": "2025-08-14"
+  },
+  {
+    "id": 2,
+    "customer": "John Smith",
+    "amount": 250.0,
+    "status": "Oczekuje",
+    "date": "2025-08-14"
+  },
+  {
+    "id": 3,
+    "customer": "Emma Johnson",
+    "amount": 75.9,
+    "status": "Zakończone",
+    "date": "2025-08-13"
+  },
+  {
+    "id": 4,
+    "customer": "Michael Brown",
+    "amount": 430.0,
+    "status": "Anulowane",
+    "date": "2025-08-13"
+  }
+]

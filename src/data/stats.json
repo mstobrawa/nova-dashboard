@@ -1,0 +1,6 @@
+[
+  { "title": "New Users", "value": 1250, "icon": "users" },
+  { "title": "Sales Today", "value": 327, "icon": "shopping-cart" },
+  { "title": "Revenue", "value": 8420, "icon": "dollar-sign" },
+  { "title": "Active Sessions", "value": 92, "icon": "activity" }
+]

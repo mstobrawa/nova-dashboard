@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Anna Kowalska",
+    "email": "anna@example.com",
+    "role": "User",
+    "active": true
+  },
+  {
+    "id": 2,
+    "name": "Jan Nowak",
+    "email": "jan@example.com",
+    "role": "User",
+    "active": true
+  },
+  {
+    "id": 3,
+    "name": "Maria Wiśniewska",
+    "email": "maria@example.com",
+    "role": "Editor",
+    "active": false
+  },
+  {
+    "id": 4,
+    "name": "Piotr Zieliński",
+    "email": "piotr@example.com",
+    "role": "User",
+    "active": true
+  },
+  {
+    "id": 5,
+    "name": "Katarzyna Lewandowska",
+    "email": "katarzyna@example.com",
+    "role": "Admin",
+    "active": false
+  },
+  {
+    "id": 6,
+    "name": "Tomasz Wójcik",
+    "email": "tomasz@example.com",
+    "role": "Editor",
+    "active": true
+  },
+  {
+    "id": 7,
+    "name": "Monika Kaczmarek",
+    "email": "monika@example.com",
+    "role": "User",
+    "active": true
+  },
+  {
+    "id": 8,
+    "name": "Paweł Dąbrowski",
+    "email": "pawel@example.com",
+    "role": "User",
+    "active": false
+  },
+  {
+    "id": 9,
+    "name": "Agnieszka Kamińska",
+    "email": "agnieszka@example.com",
+    "role": "Editor",
+    "active": true
+  },
+  {
+    "id": 10,
+    "name": "Michał Stobrawa",
+    "email": "michal@example.com",
+    "role": "Admin",
+    "active": true
+  }
+]
