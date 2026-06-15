@@ -20,7 +20,6 @@ An open-source, highly reusable dashboard MVP tailored for small and medium-size
 
 ## 📱 Visual Preview
 
-> **💡 Quick Preview:**
 > <img width="800" height="474" alt="nd2" src="https://github.com/user-attachments/assets/7d1f7ec0-704c-4658-97ed-b707957f42db" /><img width="800" height="328" alt="nd1" src="https://github.com/user-attachments/assets/4bafeb54-7165-4606-a546-51e32da917f4" />
 
 
