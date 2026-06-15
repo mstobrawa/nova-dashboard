@@ -6,11 +6,16 @@ An open-source, highly reusable dashboard MVP tailored for small and medium-size
 
 ---
 
-## 🛠️ Tech Stack & Badges
+## 🛠️ Tech Stack & Architecture
 
-[![My Skills](https://skillicons.dev)](https://skillicons.dev)
+- **Core:** React 18 & TypeScript (Strict typing & clean state architecture)
+- **Styling:** Tailwind CSS (Mobile-first, responsive grid layout)
+- **Routing:** React Router DOM (Declarative client-side routing)
+- **Data & Charts:** Recharts (Dynamic data visualization) & Lucide React (Icons)
+- **Build Tool:** Vite (Optimized production bundles)
 
 ---
+
 
 
 ## 📱 Visual Preview
