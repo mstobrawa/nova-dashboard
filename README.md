@@ -8,12 +8,10 @@ An open-source, highly reusable dashboard MVP tailored for small and medium-size
 
 ## 🛠️ Tech Stack & Badges
 
-![React](https://shields.io)
-![TypeScript](https://shields.io)
-![Tailwind CSS](https://shields.io)
-![React Router](https://shields.io)
+[![My Skills](https://skillicons.dev)](https://skillicons.dev)
 
 ---
+
 
 ## 📱 Visual Preview
 
