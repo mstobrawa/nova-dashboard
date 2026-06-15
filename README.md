@@ -1,8 +1,9 @@
 # Nova Dashboard 🚀
 
-An open-source, highly reusable dashboard MVP tailored for small and medium-sized projects. Currently configured for e-commerce metrics, it operates seamlessly on local JSON data and is architected for instant API integration.
+A reusable dashboard MVP tailored for small and medium-sized projects. Currently configured for e-commerce metrics and built on local JSON data with easy API integration in mind.
 
 [🌐 Live Demo](https://nova-dashboard-mvp.netlify.app/) | [📂 GitHub Repository](https://github.com/mstobrawa/nova-dashboard)
+Responsive • Dark / Light Mode • API-ready architecture
 
 ---
 
@@ -16,11 +17,32 @@ An open-source, highly reusable dashboard MVP tailored for small and medium-size
 
 ---
 
+## Why this project?
 
+This project was created to practice building scalable frontend architecture, reusable UI components, and dashboard layouts prepared for future API integration.
+
+---
 
 ## 📱 Visual Preview
 
-> <img width="800" height="474" alt="nd2" src="https://github.com/user-attachments/assets/7d1f7ec0-704c-4658-97ed-b707957f42db" /><img width="800" height="328" alt="nd1" src="https://github.com/user-attachments/assets/4bafeb54-7165-4606-a546-51e32da917f4" />
+<table width="100%">
+  <thead>
+    <tr>
+      <th width="50%" align="center">🌙 Dark Mode Overview</th>
+      <th width="50%" align="center">☀️ Light Mode / Mobile Metrics</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">
+        <img src="https://github.com/user-attachments/assets/7d1f7ec0-704c-4658-97ed-b707957f42db" width="100%" alt="Nova Dashboard Dark Mode" />
+      </td>
+      <td valign="top">
+        <img src="https://github.com/user-attachments/assets/4bafeb54-7165-4606-a546-51e32da917f4" width="100%" alt="Nova Dashboard Light Mode" />
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 ---
@@ -85,7 +107,7 @@ The compiled, production-ready static assets will be generated inside the `dist/
 
 - [ ] Connect a live production API for real-time data streaming.
 - [ ] Expand the UI library with advanced metrics components and micro-interactions.
-- [ ] Conduct comprehensive cross-browser UX testing and responsiveness optimization.
+- [ ] Improve accessibility and responsiveness.
 
 ---
 
@@ -94,6 +116,6 @@ The compiled, production-ready static assets will be generated inside the `dist/
 **Michał Stobrawa**
 *Frontend & Fullstack Developer focused on scalable React ecosystems.*
 
-- **GitHub:** [@mstobrawa](https://github.com/mstobrawa)
-- **LinkedIn:** [https://www.linkedin.com/in/micha%C5%82-stobrawa/]
-- **Email:** [stobrawa.m@gmail.com]
+- **GitHub:** [@mstobrawa](https://github.com)
+- **LinkedIn:** [Michał Stobrawa](https://www.linkedin.com/in/michał-stobrawa/)
+- **Email:** [stobrawa.m@gmail.com](mailto:stobrawa.m@gmail.com)
